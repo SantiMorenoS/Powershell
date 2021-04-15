@@ -1,0 +1,9 @@
+# PowerShell con Active Directory
+```Powershell
+$hora = Get-Date -Format 'HH'
+
+if ($hora -ge 20 -and $hora -lt 22){
+    "entre 20 y 20" | Out-File hora.txt
+} 
+
+```
