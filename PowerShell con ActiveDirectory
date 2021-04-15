@@ -1,6 +1,6 @@
-# PowerShell con Active Directory
+   # PowerShell con Active Directory
 
-```Powershell
+```PowerShell
 $hora = Get-Date -Format 'HH'
 
 if ($hora -ge 20 -and $hora -lt 22){
