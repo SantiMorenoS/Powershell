@@ -1,4 +1,5 @@
 # PowerShell con Active Directory
+
 ```Powershell
 $hora = Get-Date -Format 'HH'
 
